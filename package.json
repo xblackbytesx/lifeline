@@ -4,13 +4,17 @@
   "private": true,
   "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-horizontal-timeline": "^1.1.1",
+    "react-router-dom": "^4.1.1",
+    "react-swipeable-views": "^0.12.3"
   },
   "devDependencies": {
     "node-sass-chokidar": "0.0.3",
     "normalize.css": "^7.0.0",
     "npm-run-all": "^4.0.2",
-    "react-scripts": "1.0.7"
+    "react-scripts": "1.0.7",
+    "static-site-generator-webpack-plugin": "^3.4.1"
   },
   "scripts": {
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
